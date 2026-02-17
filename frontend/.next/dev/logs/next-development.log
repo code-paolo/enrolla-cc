@@ -1,0 +1,105 @@
+[00:00:01.093] Server  LOG     ✓ Ready in 884ms
+[00:00:01.932] Server  ERROR   ⨯ ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.linux-x64-gnu.node'
+Require stack:
+- /app/node_modules/lightningcss/node/index.js
+- /app/node_modules/@tailwindcss/node/dist/index.js
+- /app/node_modules/@tailwindcss/postcss/dist/index.js
+- /app/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /app/.next/dev/build/chunks/[turbopack]_runtime.js
+- /app/.next/dev/build/postcss.js
+    [at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)]
+    [at Function._load (node:internal/modules/cjs/loader:1192:37)]
+    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)]
+    [at Module.require (node:internal/modules/cjs/loader:1463:12)]
+    [at require (node:internal/modules/helpers:147:16)]
+    [at Object.<anonymous> (/app/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1706:14)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:02.496] Browser ERROR   uncaughtError: Error: ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.linux-x64-gnu.node'
+Require stack:
+- /app/node_modules/lightningcss/node/index.js
+- /app/node_modules/@tailwindcss/node/dist/index.js
+- /app/node_modules/@tailwindcss/postcss/dist/index.js
+- /app/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /app/.next/dev/build/chunks/[turbopack]_runtime.js
+- /app/.next/dev/build/postcss.js
+    [at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)]
+    [at Function._load (node:internal/modules/cjs/loader:1192:37)]
+    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)]
+    [at Module.require (node:internal/modules/cjs/loader:1463:12)]
+    [at require (node:internal/modules/helpers:147:16)]
+    [at Object.<anonymous> (/app/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1706:14)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[00:00:02.611] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.linux-x64-gnu.node'
+Require stack:
+- /app/node_modules/lightningcss/node/index.js
+- /app/node_modules/@tailwindcss/node/dist/index.js
+- /app/node_modules/@tailwindcss/postcss/dist/index.js
+- /app/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /app/.next/dev/build/chunks/[turbopack]_runtime.js
+- /app/.next/dev/build/postcss.js
+    [at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)]
+    [at Function._load (node:internal/modules/cjs/loader:1192:37)]
+    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)]
+    [at Module.require (node:internal/modules/cjs/loader:1463:12)]
+    [at require (node:internal/modules/helpers:147:16)]
+    [at Object.<anonymous> (/app/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1706:14)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:00:02.746] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.linux-x64-gnu.node'
+Require stack:
+- /app/node_modules/lightningcss/node/index.js
+- /app/node_modules/@tailwindcss/node/dist/index.js
+- /app/node_modules/@tailwindcss/postcss/dist/index.js
+- /app/.next/dev/build/chunks/[root-of-the-server]__51225daf._.js
+- /app/.next/dev/build/chunks/[turbopack]_runtime.js
+- /app/.next/dev/build/postcss.js
+    [at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)]
+    [at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)]
+    [at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)]
+    [at Function._load (node:internal/modules/cjs/loader:1192:37)]
+    [at TracingChannel.traceSync (node:diagnostics_channel:328:14)]
+    [at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)]
+    [at Module.require (node:internal/modules/cjs/loader:1463:12)]
+    [at require (node:internal/modules/helpers:147:16)]
+    [at Object.<anonymous> (/app/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1706:14)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
